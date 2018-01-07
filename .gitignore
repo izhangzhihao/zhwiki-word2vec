@@ -1,0 +1,9 @@
+wiki_00
+wiki_zh_cn
+wiki_zh_cn_plain
+wiki_zh_cn_segmented
+zhwiki-latest-pages-articles.xml.bz2
+dict.txt
+word2vec.model
+word2vec.model.syn1neg.npy
+word2vec.model.wv.syn0.npy

@@ -62,3 +62,9 @@ array([-1.57072365e-01, -5.53397499e-02, -5.00365980e-02,  2.37463728e-01,
 ```
 
 **注意：这里只对从`model.save()`恢复的模型有效，从`model.save_word2vec_format()`恢复过来的模型只能用于查询。**
+
+## Scala version
+
+```bash
+scala -J-Xms1024m -J-Xmx4096m word2vec.scala
+```

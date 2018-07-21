@@ -14,7 +14,7 @@
 * 训练：**要求输入的文件的格式为每行一篇文章，每篇文章的词语以空格隔开。**
 
 ```python
-python Word2vecTrain.py wiki_zh_cn_segmented word2vec.model
+python Word2vecTrain.py wiki_zh_cn_segmented word2vec.model word2vec.bin
 ```
 
 ## 试试看：
@@ -25,7 +25,7 @@ Python 3.6.2 (default, Aug  7 2017, 18:50:00)
 [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import gensim
->>> model = gensim.models.KeyedVectors.load('/Users/zhazhang/Downloads/zhwiki/word2vec.model')
+>>> model = gensim.models.KeyedVectors.load_word2vec_format("/Users/zhazhang/Downloads/zhwiki/word2vec.bin")
 >>> len(model['男人'])
 300
 >>> model['男人']
